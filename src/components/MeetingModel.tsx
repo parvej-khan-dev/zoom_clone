@@ -1,8 +1,8 @@
-import React from "react";
-import { Dialog, DialogContent } from "@/components/ui/dialog";
-import Image from "next/image";
-import { cn } from "@/lib/utils";
-import { Button } from "./ui/button";
+import React from 'react';
+import { Dialog, DialogContent } from '@/components/ui/dialog';
+import Image from 'next/image';
+import { cn } from '@/lib/utils';
+import { Button } from './ui/button';
 
 interface ModelProp {
   isOpen: boolean;
@@ -36,8 +36,8 @@ const MeetingModel = ({
               <Image src={image} alt="image" width={72} height={72} />
             </div>
           )}
-          <h1 className={cn("text-3xl font-bold leading-[42px]", className)}>
-            {" "}
+          <h1 className={cn('text-3xl font-bold leading-[42px]', className)}>
+            {' '}
             {title}
           </h1>
           {children}
@@ -49,7 +49,7 @@ const MeetingModel = ({
               <Image src={buttonIcon} alt="icon" width={13} height={13} />
             )}
             &nbsp;
-            {buttonText || "Schedule Meeting"}
+            {buttonText || 'Schedule Meeting'}
           </Button>
         </div>
       </DialogContent>

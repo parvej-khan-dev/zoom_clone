@@ -38,6 +38,10 @@
   height: 100%;
 }
 
+svg.lucide.lucide-x.h-4.w-4 {
+  color: white;
+}
+
 .str-video__call-controls__button {
   height: 40px;
 }
@@ -48,6 +52,9 @@
   -webkit-backdrop-filter: blur(4px) !important;
   padding: 9px;
   border-radius: 10px;
+}
+.cl-userButtonPopoverFooter.🔒️.cl-internal-uyu30o {
+  display: none;
 }
 .glassmorphism2 {
   background: rgba(18, 17, 17, 0.25);
