@@ -22,6 +22,10 @@
   color: white;
 }
 
+.cl-internal-sr03kg {
+    display: none !important;
+}
+
 .str-video__menu-container {
   color: white;
 }
